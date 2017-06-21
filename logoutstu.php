@@ -1,0 +1,13 @@
+<html>
+<body>
+<?php
+session_start();
+if(!isset($_SESSION['student']))
+{
+	header("refresh:0,url=index.php");
+}
+unset($_SESSION['student']);
+header("refresh:0;url=index.php");
+?>
+</body>
+</html>

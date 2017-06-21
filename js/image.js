@@ -1,0 +1,22 @@
+$(document).ready(function()
+{
+   if($('#imgchange').prop("checked"))
+      $('#selectimg').show();
+   else
+      $('#selectimg').hide();
+  $('#profilepic').on('click',function()
+  {
+        if($('#imgchange').prop("checked"))
+            $('#selectimg').show();
+        else
+            $('#selectimg').hide();
+  });
+  $('#profilepic1').on('click',function()
+  {
+        if($('#imgchange').prop("checked"))
+            $('#selectimg').show();
+        else
+            $('#selectimg').hide();
+  });
+  
+});
